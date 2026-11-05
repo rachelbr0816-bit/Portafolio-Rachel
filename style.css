@@ -1,0 +1,71 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 { margin: 0; font-size: 38px; }
+header p { margin: 8px 0; color: #ddd; }
+
+.botones { margin-top: 20px; }
+.botones a {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 12px 22px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.botones a.blanco {
+  background: white;
+  color: #1a1a2e;
+}
+
+section {
+  background: white;
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+h2 { color: #1a1a2e; border-bottom: 2px solid #e94560; padding-bottom: 5px; }
+
+.proyecto {
+  border: 1px solid #ddd;
+  padding: 18px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+.proyecto a { color: #e94560; font-weight: bold; text-decoration: none; }
+
+.skills span {
+  display: inline-block;
+  background: #eee;
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+footer {
+  background: #1a1a2e;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+footer a { color: white; }
+.nota { color: #ffb3c1; }
